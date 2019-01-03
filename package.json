@@ -3,18 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "axios": "^0.18.0",
+    "moment": "^2.23.0",
+    "randomstring": "^1.1.5",
+    "react": "^16.6.3",
+    "react-datepicker": "^2.0.0",
+    "react-dom": "^16.6.3",
+    "react-google-charts": "^3.0.10",
+    "react-materialize": "^2.6.0",
+    "react-scripts": "2.1.1"
   },
-  "homepage": "https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-samoshrestha/",
+  "homepage":"https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-samoshrestha/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

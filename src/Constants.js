@@ -1,0 +1,12 @@
+/*
+    This module stores all the constant values required for the application
+*/
+module.exports = {
+    MAX_PORTFOLIO : 10,
+    MAX_SYMBOLS : 50,
+    ALPHA_VANTAGE_KEY : 'FZ5782SHF692JV73',
+    ALPHA_VANTAGE_KEY_2 : '1IV0FFNEFTB5KDDQ',
+    ALPHA_VANTAGE_KEY_3 : 'AVJWG8L8PN94JDXO',
+    ALPHA_VANTAGE_KEY_4 : '11OITLZ6A9F4BGOE',
+    FUNCTION_TIME_SERIES : 'TIME_SERIES_DAILY_ADJUSTED'
+};
