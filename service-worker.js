@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2018-interactive-web-apps-project-samoshrestha/precache-manifest.4ac6077d4cfae05abb891d165a68ee38.js"
+  "/2018-interactive-web-apps-project-samoshrestha/precache-manifest.08917a3d5bac6a74defb90a57bd68cb8.js"
 );
 
 workbox.clientsClaim();
