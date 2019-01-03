@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "moment": "^2.23.0",
     "randomstring": "^1.1.5",
     "react": "^16.6.3",
@@ -13,7 +14,7 @@
     "react-materialize": "^2.6.0",
     "react-scripts": "2.1.1"
   },
-  "homepage":"https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-samoshrestha/",
+  "homepage": "https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-samoshrestha/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
